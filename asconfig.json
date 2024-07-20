@@ -1,0 +1,21 @@
+{
+	"config": "air",
+	"mainClass": "Main",
+	"workers": [
+		{
+			"file": "src/ObjectToJsonStringWorkerMain.as",
+			"optimize": true,
+			"output": "bin/ObjectToJsonStringWorker.swf"
+		}
+	],
+	"compilerOptions": {
+		"output": "bin/Worker-Crash.swf",
+		"source-path": [
+			"src"
+		]
+	},
+	"application": "application.xml",
+	"files": [
+		"src/Main.as"
+	]
+}
